@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "2e9ca4d9-e41a-4c74-bbf7-f961e4558783",
+		"name": "Mern others",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38179196"
+	},
+	"item": [
+		{
+			"name": "2.Backend_Project_Web_Traffic_Analysis_M_34_B_7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": [
+								"/C:/Users/User/Pictures/Screenshots/Screenshot 2024-12-15 234646.png",
+								"/C:/Users/User/Pictures/Screenshots/Screenshot 2024-12-14 181326.png",
+								"/C:/Users/User/Pictures/Screenshots/Screenshot 2024-12-14 181503.png",
+								"/C:/Users/User/Pictures/Screenshots/Screenshot 2024-12-14 183152.png",
+								"/C:/Users/User/Pictures/Screenshots/Screenshot 2024-12-15 234646.png"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/view-traffic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"view-traffic"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
