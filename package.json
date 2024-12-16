@@ -1,0 +1,12 @@
+{
+  "name": "2.backend_project_web_traffic_analysis_m_34_b_7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
